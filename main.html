@@ -11,13 +11,13 @@
 		<label for="name">Name</label>
 		<input type="text" placeholder="Name" id="name" required><br>
     <label for="email">Email</label>
-		<input type="email" placeholder="Email" id="name" required><br>
+		<input type="email" placeholder="Email" id="email" required><br>
     <input type="radio" name="gender" id="gender_m" required>
 		<label for="gender_m">Male</label><br>
 	<input type="radio" name="gender" id="gender_f" required>
 		<label for="gender_f">Female</label><br>
 	<label for="cars">Car Brands</label>
-	<select placeholder="--Please choose an option--">
+	<select id="cars" placeholder="--Please choose an option--">
 		<option>BMW</option>
 		<option>Mercedes</option>
 		<option>Audi</option>
@@ -32,6 +32,7 @@
 		<input type="password" placeholder="Password" id="password" required><br>
 	<label for="tos">I agree to the TOS</label>
 		<input type="checkbox" id="tos" required><br>
+	<button formmethod="post" type="submit">Submit</button>
 		<script type="text/javascript" src="./script.js">
 </script>
 
